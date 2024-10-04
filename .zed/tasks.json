@@ -3,5 +3,10 @@
     "label": "npm run dev",
     "command": "npm run dev",
     "reveal": "never"
+  },
+  {
+    "label": "npm run build",
+    "command": "npm run build",
+    "hide": "on_success"
   }
 ]
