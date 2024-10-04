@@ -1,0 +1,7 @@
+[
+  {
+    "label": "npm run dev",
+    "command": "npm run dev",
+    "reveal": "never"
+  }
+]
