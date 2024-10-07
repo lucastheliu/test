@@ -112,7 +112,7 @@ export default function Home() {
         <Canvas onCreated={() => setIsLoaded(true)}>
           <ambientLight intensity={Math.PI / 3} />
           <directionalLight position={[5, 5, 5]} intensity={Math.PI} />
-          <Model url="monkey.glb" start={isLoaded} />
+          <Model url="model.glb" start={isLoaded} />
           <Environment preset="dawn" background />
           <OrbitControls />
         </Canvas>
